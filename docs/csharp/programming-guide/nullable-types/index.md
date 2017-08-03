@@ -56,7 +56,7 @@ Nullable 형식은 <xref:System.Nullable%601?displayProperty=fullName> 구조체
   
 -   다음 예제와 같이 <xref:System.Nullable%601.HasValue%2A> 및 <xref:System.Nullable%601.Value%2A> 읽기 전용 속성을 사용하여 null인지 테스트하고 값을 검색합니다. `if(x.HasValue) j = x.Value;`  
   
-    -   `HasValue` 속성은 변수에 앖이 있으면 `true`를, `null`이면 `false`를 반환합니다.  
+    -   `HasValue` 속성은 변수에 이 있으면 `true`를, `null`이면 `false`를 반환합니다.  
   
     -   `Value` 속성은 할당된 값이 있으면 해당 값을 반환합니다. 그렇지 않으면 <xref:System.InvalidOperationException?displayProperty=fullName>이 throw됩니다.  
   
